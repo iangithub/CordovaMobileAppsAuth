@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--
+        視需要在下方的中繼標籤中自訂內容安全性原則。將 'unsafe-inline' 加入 default-src 以啟用內嵌 JavaScript。
+        如需詳細資料，請參閱 http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>BlankCordovaApp27</title>
+
+    <!-- BlankCordovaApp27 參考 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/docs.css" rel="stylesheet" />
+    <link href="css/bootstrap-social.css" rel="stylesheet" />
+
+    <link href="css/index.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <header style="height:100px;font-size:22px">
+            Mobile Apps Authentication
+        </header>
+        <div id="authinfo" style="height:200px;">
+
+        </div>
+        <a id="facebookauth" class="btn btn-block btn-social btn-lg btn-facebook">
+            <span class="fa fa-facebook"></span> Sign in with FackBook
+        </a>
+        <a class="btn btn-block btn-social btn-lg btn-twitter">
+            <span class="fa fa-twitter"></span> Sign in with Twitter
+        </a>
+        <a class="btn btn-block btn-social btn-lg btn-microsoft">
+            <span class="fa fa-windows"></span> Sign in with Microsoft
+        </a>
+    </div>
+    <!-- Cordova 參考，建置後會加入您的應用程式。 -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
